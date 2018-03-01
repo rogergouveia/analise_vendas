@@ -3,9 +3,9 @@
 Sistema que lê arquivos na pasta de entrada, processa seus dados, e gera relatórios na pasta de saída.
 
 Funcionamento
- -A aplicação continua funcionando até que o processo seja derrubado
- -A cada 5 seg é disparada uma nova thread que reexecuta o processo. Se um relatório já existir com mesmo nome, ele é sobreescrito.
- -Os arquivos de entrada não são apagados.
+ - A aplicação continua funcionando até que o processo seja derrubado
+ 1. A cada 5 seg é disparada uma nova thread que reexecuta o processo. Se um relatório já existir com mesmo nome, ele é sobreescrito.
+ 2.Os arquivos de entrada não são apagados.
  -A aplicação não aceita parâmetros de execução
  -É gerado um relatório para cada arquivo
 
