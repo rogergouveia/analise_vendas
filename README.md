@@ -38,13 +38,13 @@ Dado Cliente "CódigoTipoDado"ç"CNPJ"ç"Nome"ç"Área"
 - Nome pode ser qualquer string de qualquer tamanho
 - Área pode ser qualquer string de qualquer tamanho
 
-Dado Venda "CódigoTipoDado"ç"ID Venda"ç["Dado Vend aItem"]ç"NomeVendedor"
+Dado Venda "CódigoTipoDado"ç"ID Venda"ç["DadoVendaItem"]ç"NomeVendedor"
 - CódigoTipoDado de vendedor é sempre 003
 - ID venda é número inteiro.
 - DadoVendaItem é outro Tipo de Dado conforme abaixo
 - NomeVendedor pode ser qualquer string de qualquer tamanho
 
-Dado Venda Item '<IDItem>'-"<QuantidadeItem>"-<PrecoItem>,...
+Dado Venda Item "IDItem"-"QuantidadeItem"-"PrecoItem",...
 - IDItem qualquer inteiro
 - QuantidadeItem qualquer inteiro
 - PrecoItem deve ser um número com ponto marcando o início das casas decimais
