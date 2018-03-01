@@ -43,7 +43,7 @@ Dado Venda <CódigoTipoDado>ç<IDVenda>ç[<DadoVendaItem>]ç<NomeVendedor>
 - DadoVendaItem é outro Tipo de Dado conforme abaixo
 - NomeVendedor pode ser qualquer string de qualquer tamanho
 
-Dado Venda Item ''<IDItem>''-"<QuantidadeItem>"-<PrecoItem>,...
+Dado Venda Item '<IDItem>'-"<QuantidadeItem>"-<PrecoItem>,...
 - IDItem qualquer inteiro
 - QuantidadeItem qualquer inteiro
 - PrecoItem deve ser um número com ponto marcando o início das casas decimais
