@@ -11,6 +11,7 @@ Funcionamento
 
 
 Pasta entrada: %HOMEPATH%/data/in
+
 Pasta saída: %HOMEPATH%/data/out
 
 Arquivo de Entrada
