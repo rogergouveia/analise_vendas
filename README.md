@@ -26,19 +26,19 @@ Dados arquivo de Entrada
 Arquivo de entrada podem possuir 3 tipos de dados (vendedor, cliente, venda)
 Cada linha representa um tipo de dado
 
-Dado Vendedor <CódigoTipoDado>ç<CPF>ç<Nome>ç<Salário>
+Dado Vendedor "CódigoTipoDado"ç"CPF"ç"Nome"ç"Salário"
 - CódigoTipoDado de vendedor é sempre 001
 - CPF pode possuir ou não máscara. Não deve possuir mais do que 11 dígitos. Não é validado se o CPF é válido.
 - Nome qualquer string de qualquer tamanho
 - Salário deve ser um número com ponto marcando o início das casas decimais
 
-Dado Cliente <CódigoTipoDado>ç<CNPJ>ç<Nome>ç<Área>
+Dado Cliente "CódigoTipoDado"ç"CNPJ"ç"Nome"ç"Área"
 - CódigoTipoDado de vendedor é sempre 002
 - CNPJ pode possuir ou não máscara. Não deve possuir mais do que 14 dígitos. Não é validado se CNPJ é válido.
 - Nome pode ser qualquer string de qualquer tamanho
 - Área pode ser qualquer string de qualquer tamanho
 
-Dado Venda <CódigoTipoDado>ç<ID Venda>ç[<Dado Vend aItem>]ç<NomeVendedor>
+Dado Venda "CódigoTipoDado"ç"ID Venda"ç["Dado Vend aItem"]ç"NomeVendedor"
 - CódigoTipoDado de vendedor é sempre 003
 - ID venda é número inteiro.
 - DadoVendaItem é outro Tipo de Dado conforme abaixo
