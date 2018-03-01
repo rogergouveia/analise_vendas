@@ -38,7 +38,7 @@ Dado Cliente <CódigoTipoDado>ç<CNPJ>ç<Nome>ç<Área>
 - Nome pode ser qualquer string de qualquer tamanho
 - Área pode ser qualquer string de qualquer tamanho
 
-Dado Venda <CódigoTipoDado>ç<IDVenda>ç[<DadoVendaItem>]ç<NomeVendedor>
+Dado Venda <CódigoTipoDado>ç<ID Venda>ç[<Dado Vend aItem>]ç<NomeVendedor>
 - CódigoTipoDado de vendedor é sempre 003
 - ID venda é número inteiro.
 - DadoVendaItem é outro Tipo de Dado conforme abaixo
